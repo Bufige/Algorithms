@@ -110,6 +110,60 @@ void clear(struct Node * leaf)
 }
 
 
+struct Node * minvalue(struct Node * leaf)
+{
+	struct Node * current = leaf;
+	while(current->left != NULL)
+	{
+		current = current->left;
+	}
+	return current;
+}
+
+struct Node * delete_node(struct Node * leaf, int data)
+{
+	//é o root
+	if(leaf == NULL)
+	{
+		return NULL;
+	}
+	//data é maior que leaf data, vamos no right
+	if(data > leaf->data)
+	{
+		leaf->right = delete_node(leaf->right,data);
+	}
+	else if(data < leaf->data) // vamos no left
+	{
+		leaf->left = delete_node(leaf->left,data);
+	}
+	else // data == leaf->data
+	{
+		//tem apenas 1 filho?, vamos o swap entre o leaf e o filho
+		if(leaf->right == NULL)
+		{
+			struct Node * tmp = leaf->left;
+			free(leaf);
+			return tmp;
+		}
+		else if(leaf->left == NULL)
+		{
+			struct Node * tmp = leaf->right;
+			free(leaf);
+			return tmp;
+		}
+
+		//tem 2 filhos
+
+		//achamos o menor valor do right de leaf.
+		struct Node * tmp = minvalue(leaf->right);
+		//fazemos o swap desse valor com o leaf
+		leaf->data = tmp->data;
+		//vamos deletar esse valor
+		leaf->right = delete_node(leaf->right,tmp->data);
+	}
+	return leaf;
+}
+
 int main()
 {
 	int array[] = {512,128,256,64,32,2,8,4,1,16};
@@ -123,7 +177,9 @@ int main()
 	
 	print_all(root);
 
-	struct Node * found = find(root,64);
+	struct Node * found = find(root,128);
+	root = delete_node(root,64);
+	print_all(root);
 
 	printf("encontrado:%d\n", found != NULL ? found->data : -1);
 	clear(root);
