@@ -24,8 +24,6 @@ int binary_search(int array[], int start, int end, int data)
 
 int main()
 {
-	std::cin.tie(NULL); std::cout.sync_with_stdio(false);
-
 	int array[] = {1,2,4,8,16,32,64,128,256};
 	
 
