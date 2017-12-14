@@ -7,7 +7,7 @@ class Animal
 {
 public:
 	Animal(std::string name) : name(name){}
-	//pra limpar corretamente
+	//pra limpar corretamente caso vá implementar algo dinâmico, o que não é o nosso caso.
 	virtual ~Animal(){}
 
 	//implementar nas classes derivadas
@@ -38,12 +38,29 @@ public:
 };
 
 
+class Dog : public  Animal 
+{
+public:
+	//pode usar o using caso a base n seja public
+	//using Animal::GetName;
+	Dog(std::string name) : Animal(name) {}
+
+	 void make_sound() override
+	{
+		std::cout << "dog sound" << std::endl;
+	}
+};
+
+
 
 
 int main()
 {
-	Cat cat("legal");
+	Cat cat("abc");
+	Dog dog("zyx")
 	cat.make_sound();
 	std::cout << cat.GetName() << std::endl;
+	dog.make_sound();
+	std::cout << dog.GetName() << std::endl;
 	return 0;
 }

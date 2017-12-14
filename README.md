@@ -19,11 +19,19 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 | 5  | [Algorithm Binary Search][5]                  | [C](/c/binary-search.c) | [C++](/c++/binary-search.cpp) | C# | Python |
 | 6  | [Algorithm Linear Search][6]                  | [C](/c/linear-search.c) | [C++](/c++/linear-search.cpp) | C# | Python |
 | 7  | [Algorithm Fatorial][7]                  | [C](/c/fatorial.c) | [C++](/c++/fatorial.cpp) | C# | Python |
-| 8  | [Algorithm Fibonnaci][8]                  | [C](/c/fibonnaci.c) | [C++](/c++/fibonnaci.cpp) | C# | Python |
+| 8  | [Algorithm Fibonnaci][8]                  | [C](/c/fibonacci.c) | [C++](/c++/fibonacci.cpp) | C# | Python |
 | 9  | [Algorithm Least Common Multiple ][9]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
 | 10  | [Algorithm Greatest Common Dividor ][10]                  | C | [C++](/c++/gcd.cpp) | C# | Python |
 | 11  | [Algorithm Insertion Sort ][11]                  | C | [C++](/c++/insertion-sort.cpp) | C# | Python |
 | 12  | [Algorithm Bubble Sort ][11]                  | C | [C++](/c++/bubble-sort.cpp) | C# | Python |
+
+
+
+|    | Random Problems     |
+|----|------------------------------|-----------------|
+| 1  | Sorting problem                  | [C++](/c/problem1.c)  |
+| 2  | Classical classes and inheritance problem  | [C++](/c/problem2.c)  |
+| 3  | Classical classes and inheritance problem 2 | [C++](/c/problem3.c)  |
 
 
 
