@@ -23,7 +23,7 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 | 9  | [Algorithm Least Common Multiple ][9]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
 | 10  | [Algorithm Greatest Common Dividor ][10]                  | C | [C++](/c++/gcd.cpp) | C# | Python |
 | 11  | [Algorithm Insertion Sort ][11]                  | C | [C++](/c++/insertion-sort.cpp) | C# | Python |
-| 12  | [Algorithm Bubble Sort ][11]                  | C | [C++](/c++/bubble-sort.cpp) | C# | Python |
+| 12  | [Algorithm Bubble Sort ][12]                  | C | [C++](/c++/bubble-sort.cpp) | C# | Python |
 
 
 
