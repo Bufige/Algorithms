@@ -18,6 +18,12 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 | 4  | [Stack][4]                  | [C](/c/stack.c) | [C++](/c++/stack.h) | C# | Python |
 | 5  | [Algorithm Binary Search][5]                  | [C](/c/binary-search.c) | [C++](/c++/binary-search.cpp) | C# | Python |
 | 6  | [Algorithm Linear Search][6]                  | [C](/c/linear-search.c) | [C++](/c++/linear-search.cpp) | C# | Python |
+| 7  | [Algorithm Fatorial][7]                  | [C](/c/fatorial.c) | [C++](/c++/fatorial.cpp) | C# | Python |
+| 8  | [Algorithm Fibonnaci][8]                  | [C](/c/fibonnaci.c) | [C++](/c++/fibonnaci.cpp) | C# | Python |
+| 9  | [Algorithm Fibonnaci][9]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
+| 10  | [Algorithm Least Common Multiple ][10]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
+
+
 
 
 
@@ -32,3 +38,7 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 [4]: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 [5]: https://en.wikipedia.org/wiki/Binary_search_algorithm
 [6]: https://en.wikipedia.org/wiki/Linear_search
+[7]: https://en.wikipedia.org/wiki/Factorial
+[8]: https://en.wikipedia.org/wiki/Fibonacci_number
+[9]: https://en.wikipedia.org/wiki/Least_common_multiple
+[10]: https://en.wikipedia.org/wiki/Greatest_common_divisor
