@@ -27,7 +27,7 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 
 
 
-|    | Random Problems     |
+|    | Random Problems     | Language |      
 |----|------------------------------|-----------------|
 | 1  | Sorting problem                  | [C++](/c/problem1.c)  |
 | 2  | Classical classes and inheritance problem  | [C++](/c/problem2.c)  |
