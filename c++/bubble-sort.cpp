@@ -1,21 +1,25 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 
-void insertion_sort(std::vector<int> &vec)
+
+void bubble_sort(std::vector<int> &vec)
 {
-	int sel, j;
 	for(int i = 1; i < vec.size(); i++)
 	{
-		sel = vec[i];
-		j = i -1;
+		bool sorted = true;
 
-		while((j >= 0) && (vec[j] > sel))
+		for(int j = 0; j < vec.size() - i; j++ )
 		{
-			vec[j+1] = vec[j];
-			j--;
+			if(vec[j] > vec[j+1])
+			{
+				std::swap(vec[j],vec[j+1]);
+				sorted = false;
+			}
 		}
-		vec[j + 1] = sel;
+		if(sorted)
+			return ;
 	}
 }
 
@@ -29,7 +33,7 @@ int main()
 	vec.push_back(100);
 	vec.push_back(77);
 
-	insertion_sort(vec);
+	bubble_sort(vec);
 
 	for(int i = 0; i < vec.size(); i++)
 	{
