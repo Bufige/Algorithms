@@ -5,6 +5,7 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 ## The project comes with two files called clear.bat and compile.bat
 ### compile.bat will compile all of c/c++ files in each respective directory.
 ### clear.bat will clear all the .exe generated inside of every folder
+####
 
 |    | Algorithms and Data Structures      | C | C++ | C# | Python |
 |----|-------------------------------------|--------------|--------------|--------------|--------------|
