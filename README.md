@@ -20,8 +20,12 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 | 6  | [Algorithm Linear Search][6]                  | [C](/c/linear-search.c) | [C++](/c++/linear-search.cpp) | C# | Python |
 | 7  | [Algorithm Fatorial][7]                  | [C](/c/fatorial.c) | [C++](/c++/fatorial.cpp) | C# | Python |
 | 8  | [Algorithm Fibonnaci][8]                  | [C](/c/fibonnaci.c) | [C++](/c++/fibonnaci.cpp) | C# | Python |
-| 9  | [Algorithm Fibonnaci][9]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
-| 10  | [Algorithm Least Common Multiple ][10]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
+| 9  | [Algorithm Least Common Multiple ][9]                  | C | [C++](/c++/lcm.cpp) | C# | Python |
+| 10  | [Algorithm Greatest Common Dividor ][10]                  | C | [C++](/c++/gcd.cpp) | C# | Python |
+| 11  | [Algorithm Insertion Sort ][11]                  | C | [C++](/c++/insertion-sort.cpp) | C# | Python |
+
+
+
 
 
 
@@ -42,3 +46,4 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 [8]: https://en.wikipedia.org/wiki/Fibonacci_number
 [9]: https://en.wikipedia.org/wiki/Least_common_multiple
 [10]: https://en.wikipedia.org/wiki/Greatest_common_divisor
+[11]: https://pt.wikipedia.org/wiki/Insertion_sort
