@@ -6,6 +6,10 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 - compile.bat will compile all of c/c++ files in each respective directory.
 - clear.bat will clear all the .exe generated inside of every folder
 
+
+
+# List of every algorithm or data structure i have done so far
+
 |    | Algorithms and Data Structures      | C | C++ | C# | Python |
 |----|-------------------------------------|--------------|--------------|--------------|--------------|
 | 1  | [Algorithm BST][1]                  | [C](/c/bst.c) | [C++](/c++/bst.cpp) | C# | Python |
@@ -13,6 +17,7 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 | 3  | [Queue][3]                  | [C](/c/queue.c) | [C++](/c++/queue.h) | C# | Python |
 | 4  | [Stack][4]                  | [C](/c/stack.c) | [C++](/c++/stack.h) | C# | Python |
 | 5  | [Algorithm Binary Search][5]                  | [C](/c/binary-search.c) | [C++](/c++/binary-search.cpp) | C# | Python |
+| 6  | [Algorithm Linear Search][5]                  | [C](/c/linear-search.c) | [C++](/c++/linear-search.cpp) | C# | Python |
 
 
 
@@ -26,3 +31,4 @@ Algorithms and Data Structures that you might learn or use at the university. Ev
 [3]: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
 [4]: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 [5]: https://en.wikipedia.org/wiki/Binary_search_algorithm
+[6]: https://en.wikipedia.org/wiki/Linear_search_algorithm
